@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rathore Tour & Travels</title>
+    <title>Sachan Tour & Travels</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,7 +24,7 @@
     <!-- NAVBAR -->
     <header class="navbar">
         <div class="logo">
-            <img src="image/logo.png">
+            <img src="image/logo-1.webp">
             
         </div>
 
@@ -762,7 +762,7 @@
 
         
         <div class="footer-about">
-            <img src="image/logo.png" class="logo">
+            <img src="image/logo-1.webp" class="logo">
 
             <p>
                 Your trusted partner for comfortable and affordable taxi services across India.
@@ -804,14 +804,15 @@
         <div class="footer-contact">
             <h3>Contact Info</h3>
 
-            <p><i class="fa fa-phone"></i> +91 99293 14857</p>
-            <p><i class="fa fa-phone"></i> +91 80037 36751</p>
+            <p><i class="fa fa-phone"></i> 
++91 6307243773</p>
+            
             <span>24/7 Booking Hotline</span>
 
-            <p><i class="fa fa-envelope"></i> booking.rathore@gmail.com</p>
+            <p><i class="fa fa-envelope"></i> info@sachantravel.com</p>
             <span>Email Support</span>
 
-            <p><i class="fa fa-map-marker-alt"></i> All India Service</p>
+            <p><i class="fa fa-map-marker-alt"></i> Shop no.8 CITY COMPLEX MANAS CITY INDIRA NAGAR LUCKNOW 226015</p>
             <span>Major Cities & Towns</span>
         </div>
 
