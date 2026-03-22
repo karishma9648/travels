@@ -6,48 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sachan Tour & Travels</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <?php include 'header-link.php'; ?>
 
 </head>
 
 <body>
-
-    <!-- NAVBAR -->
-    <header class="navbar">
-        <div class="logo">
-            <img src="image/logo-1.webp">
-            
-        </div>
-
-        <nav>
-            <ul class="nav-links">
-                <li> Home</li>
-                <li> Our Cars</li>
-                <li> Features</li>
-                <li> Services</li>
-                <li> Contact</li>
-            </ul>
-        </nav>
-
-        <div class="nav-right">
-            <div class="phone">
-                <i class="fa fa-phone"></i> +91 9929314857
-            </div>
-            <button class="btn">Book Now</button>
-        </div>
-
-        <div class="menu-toggle"><i class="fa fa-bars"></i></div>
-    </header>
-
+<?php include 'header.php'; ?>
+   
     <!-- HERO -->
     <section class="hero">
         <div class="overlay"></div>
@@ -754,77 +719,7 @@
     </div>
 
 </section>
-<!-- footer -->
-
-<footer class="footer">
-
-    <div class="container footer-grid">
-
-        
-        <div class="footer-about">
-            <img src="image/logo-1.webp" class="logo">
-
-            <p>
-                Your trusted partner for comfortable and affordable taxi services across India.
-                Experience the difference with our premium vehicles and professional drivers.
-            </p>
-
-            <div class="social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-in"></i>
-            </div>
-        </div>
-
-        
-        <div class="footer-links">
-            <h3>Quick Links</h3>
-            <a href="#">Home</a>
-            <a href="#">Our Cars</a>
-            <a href="#">Features</a>
-            <a href="#">Reviews</a>
-            <a href="#">Contact</a>
-            <a href="#">About Us</a>
-        </div>
-
-       
-        <div class="footer-links">
-            <h3>Our Services</h3>
-            <a href="#">Airport Transfer</a>
-            <a href="#">City Tours</a>
-            <a href="#">Outstation Trips</a>
-            <a href="#">Corporate Travel</a>
-            <a href="#">Wedding Events</a>
-            <a href="#">Emergency Rides</a>
-            <a href="#">Package Tours</a>
-        </div>
-
-       
-        <div class="footer-contact">
-            <h3>Contact Info</h3>
-
-            <p><i class="fa fa-phone"></i> 
-+91 6307243773</p>
-            
-            <span>24/7 Booking Hotline</span>
-
-            <p><i class="fa fa-envelope"></i> info@sachantravel.com</p>
-            <span>Email Support</span>
-
-            <p><i class="fa fa-map-marker-alt"></i> Shop no.8 CITY COMPLEX MANAS CITY INDIRA NAGAR LUCKNOW 226015</p>
-            <span>Major Cities & Towns</span>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom"></div>
-
-</footer>
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+<?php include 'footer.php'; ?>
 </body>
 
 </html>
