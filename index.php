@@ -111,7 +111,7 @@
                     <div class="img-box">
                         <img src="image/swift-FTV4h9a9.jpg">
                         <span class="tag">Economy</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">
@@ -142,7 +142,7 @@
                     <div class="img-box">
                         <img src="image/ertiga-D2hWJ2M3.jpg">
                         <span class="tag">Family</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">
@@ -173,7 +173,7 @@
                     <div class="img-box">
                         <img src="image/crysta-DgDRNYIF.jpg">
                         <span class="tag">Premium</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">
@@ -204,7 +204,7 @@
                     <div class="img-box">
                         <img src="image/thar-DDEH5HwU.jpg">
                         <span class="tag">SUV</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">
@@ -235,7 +235,7 @@
                     <div class="img-box">
                         <img src="image/thar-DDEH5HwU.jpg">
                         <span class="tag">Adventure</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">
