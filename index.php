@@ -267,7 +267,7 @@
                     <div class="img-box">
                         <img src="image/fortuner-DBn4na8v.jpg">
                         <span class="tag">Luxury</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">
@@ -301,7 +301,7 @@
                     <div class="img-box">
                         <img src="image/force-traveller-FHMor_h8.jpg">
                         <span class="tag">Group Travel</span>
-                        <span class="rating"> <i class="fa-solid fa-star"></i> 4.5</span>
+                        <span class="rating">⭐ 4.5</span>
                     </div>
 
                     <div class="card-body">

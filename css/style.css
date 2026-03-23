@@ -433,7 +433,7 @@ background: #1e7f5c;
   transform: translateX(3px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
    .navbar {
     padding: 10px 20px;   
     height: auto;         
@@ -965,6 +965,11 @@ textarea {
 
   .contact-card p {
     font-size: 15px;
+  }
+  .contact-form {
+    width: 100%;
+    max-width: 500px;  
+    margin: 0 auto;     
   }
 
 
