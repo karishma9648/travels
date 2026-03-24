@@ -95,246 +95,166 @@
 
     </section>
     <!-- ride section -->
-    <section class="cars-section">
-
-        <div class="container">
-            <h2>Choose Your Perfect Ride</h2>
-            <p class="subtitle">
-                From budget-friendly city cars to luxury SUVs, we have the perfect vehicle
-                for every journey across India
+    <section class="cars-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Choose Your Perfect Ride</h2>
+            <p class="text-muted">
+                From budget-friendly city cars to luxury SUVs, we have the perfect vehicle for every journey
             </p>
-
-            <div class="cars-grid">
-
-                <!-- CARD 1-->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/swift-FTV4h9a9.jpg">
-                        <span class="tag">Economy</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Maruti Swift</h3>
-                        <p>Perfect for city rides and short trips</p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 4</span>
-                            <span><i class="fa fa-suitcase"></i> 2</span>
-                            <span><i class="fa fa-gas-pump"></i> Petrol</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Music System</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹11/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 2 -->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/ertiga-D2hWJ2M3.jpg">
-                        <span class="tag">Family</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Maruti Ertiga</h3>
-                        <p>Ideal for family outings and comfortable travel</p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 4</span>
-                            <span><i class="fa fa-gas-pump"></i> Petrol</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Music System</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹13/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 3 -->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/crysta-DgDRNYIF.jpg">
-                        <span class="tag">Premium</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Toyota Innova Crysta</h3>
-                        <p>Ideal for family trips and long journeys</p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 5</span>
-                            <span><i class="fa fa-gas-pump"></i> Petrol</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Music System</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹16/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 4-->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/thar-DDEH5HwU.jpg">
-                        <span class="tag">SUV</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Mahindra Scorpio</h3>
-                        <p>Rugged SUV for all terrains and long trips</p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 4</span>
-                            <span><i class="fa fa-gas-pump"></i> Petrol</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Music System</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹17/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 5-->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/thar-DDEH5HwU.jpg">
-                        <span class="tag">Adventure</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Mahindra Thar</h3>
-                        <p>Perfect for adventure trips and rough terrain</p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 4</span>
-                            <span><i class="fa fa-suitcase"></i> 2</span>
-                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>4WD</span>
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Off-road</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹20/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 6-->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/fortuner-DBn4na8v.jpg">
-                        <span class="tag">Luxury</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Toyota Fortuner</h3>
-                        <p>Ultimate luxury for special occasions
-
-                        </p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 5</span>
-                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>Luxury Interior</span>
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Premium Sound</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹25/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 7 -->
-                <div class="car-card">
-                    <div class="img-box">
-                        <img src="image/force-traveller-FHMor_h8.jpg">
-                        <span class="tag">Group Travel</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h3>Force 16 Seater Traveller</h3>
-                        <p>Perfect for large group travel and outstation trips</p>
-
-                        <div class="info">
-                            <span><i class="fa fa-user"></i> 16</span>
-                            <span><i class="fa fa-suitcase"></i> 12</span>
-                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
-                        </div>
-
-
-                        <div class="features">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Push Back Seats</span>
-                            <span>Music System</span>
-                        </div>
-
-                        <div class="price-row">
-                            <h4>₹30/km <span>onwards</span></h4>
-                            <button><i class="fa fa-arrow-right"></i> Book Now</button>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
         </div>
 
-    </section>
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card car-card h-100">
+
+                    <div class="position-relative">
+                        <img src="image/swift-FTV4h9a9.jpg" class="card-img-top">
+
+                        <span class="badge tag bg-success">Economy</span>
+                        <span class="rating">
+                            ⭐ 4.5
+                        </span>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="fw-bold">Maruti Swift</h5>
+                        <p class="text-muted small">Perfect for city rides and short trips</p>
+
+                        <div class="d-flex justify-content-between small mb-2 text-secondary">
+                            <span><i class="fa fa-user"></i> 4</span>
+                            <span><i class="fa fa-suitcase"></i> 2</span>
+                            <span><i class="fa fa-gas-pump"></i> Petrol</span>
+                        </div>
+
+                        <div class="features mb-3">
+                            <span>AC</span>
+                            <span>GPS</span>
+                            <span>Music</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="price mb-0">₹11/km <small>onwards</small></h6>
+                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card car-card h-100">
+
+                    <div class="position-relative">
+                        <img src="image/ertiga-D2hWJ2M3.jpg" class="card-img-top">
+
+                        <span class="badge tag bg-success">Family</span>
+                        <span class="rating">⭐ 4.5</span>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="fw-bold">Maruti Ertiga</h5>
+                        <p class="text-muted small">Ideal for family outings</p>
+
+                        <div class="d-flex justify-content-between small mb-2 text-secondary">
+                            <span><i class="fa fa-user"></i> 7</span>
+                            <span><i class="fa fa-suitcase"></i> 4</span>
+                            <span><i class="fa fa-gas-pump"></i> Petrol/CNG</span>
+                        </div>
+
+                        <div class="features mb-3">
+                            <span>AC</span>
+                            <span>GPS</span>
+                            <span>Spacious</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="price mb-0">₹13/km <small>onwards</small></h6>
+                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card car-card h-100">
+
+                    <div class="position-relative">
+                        <img src="image/crysta-DgDRNYIF.jpg" class="card-img-top">
+
+                        <span class="badge tag bg-success">Premium</span>
+                        <span class="rating">⭐ 4.5</span>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="fw-bold">Toyota Innova Crysta</h5>
+                        <p class="text-muted small">Ideal for long journeys</p>
+
+                        <div class="d-flex justify-content-between small mb-2 text-secondary">
+                            <span><i class="fa fa-user"></i> 7</span>
+                            <span><i class="fa fa-suitcase"></i> 5</span>
+                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
+                        </div>
+
+                        <div class="features mb-3">
+                            <span>AC</span>
+                            <span>GPS</span>
+                            <span>WiFi</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="price mb-0">₹16/km <small>onwards</small></h6>
+                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card car-card h-100">
+
+                    <div class="position-relative">
+                        <img src="image/thar-DDEH5HwU.jpg" class="card-img-top">
+
+                        <span class="badge tag bg-success">SUV</span>
+                        <span class="rating">⭐ 4.5</span>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="fw-bold">Mahindra Scorpio</h5>
+                        <p class="text-muted small">Rugged SUV for all terrains</p>
+
+                        <div class="d-flex justify-content-between small mb-2 text-secondary">
+                            <span><i class="fa fa-user"></i> 7</span>
+                            <span><i class="fa fa-suitcase"></i> 4</span>
+                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
+                        </div>
+
+                        <div class="features mb-3">
+                            <span>AC</span>
+                            <span>GPS</span>
+                            <span>4WD</span>
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="price mb-0">₹17/km <small>onwards</small></h6>
+                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
     <!-- services  -->
     <section class="why-section">
 
