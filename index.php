@@ -617,7 +617,7 @@
             </div>
 
             
-            <div class="contact-form">
+            <!-- <div class="contact-form">
 
                 <h3>Send us a Message</h3>
 
@@ -632,7 +632,34 @@
 
                 <button>Get Quote Now</button>
 
-            </div>
+            </div> -->
+            <div class="contact-form-box">
+  <h3 class="cf-title">Send us a Message</h3>
+
+  <div class="cf-row">
+    <div class="cf-field">
+      <label class="cf-label">Full Name</label>
+      <input type="text" class="cf-input" placeholder="Enter your name">
+    </div>
+
+    <div class="cf-field">
+      <label class="cf-label">Phone Number</label>
+      <input type="text" class="cf-input" placeholder="Enter your phone">
+    </div>
+  </div>
+
+  <div class="cf-field">
+    <label class="cf-label">Email Address</label>
+    <input type="email" class="cf-input" placeholder="Enter your email">
+  </div>
+
+  <div class="cf-field">
+    <label class="cf-label">Travel Details</label>
+    <textarea class="cf-textarea" placeholder="Tell us about your travel requirements..."></textarea>
+  </div>
+
+  <button class="cf-btn">Get Quote Now</button>
+</div>
 
         </div>
 
