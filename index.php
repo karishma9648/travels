@@ -582,39 +582,37 @@
 
         <div class="contact-wrapper">
 
-           
-            <div class="contact-left">
+          <div class="contact-left">
+  
+  <div class="contact-box">
+    <i class="fas fa-phone"></i>
+    <h3>Call Us</h3>
+    <p>+91 99293 14857<br>+91 80037 36751</p>
+    <span>24/7 Support</span>
+  </div>
 
-                <div class="contact-card">
-                    <i class="fa fa-phone"></i>
-                    <h3>Call Us</h3>
-                    <p>+91 99293 14857</p>
-                    <p>+91 80037 36751</p>
-                    <span>24/7 Support</span>
-                </div>
+  <div class="contact-box">
+    <i class="fas fa-envelope"></i>
+    <h3>Email Us</h3>
+    <p>booking.rathoretourandtravels@gmail.com</p>
+    <span>Quick Response</span>
+  </div>
 
-                <div class="contact-card">
-                    <i class="fa fa-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>booking.rathore@gmail.com</p>
-                    <span>Quick Response</span>
-                </div>
+  <div class="contact-box">
+    <i class="fas fa-map-marker-alt"></i>
+    <h3>Service Areas</h3>
+    <p>All Major Cities</p>
+    <span>Across India</span>
+  </div>
 
-                <div class="contact-card">
-                    <i class="fa fa-map-marker-alt"></i>
-                    <h3>Service Areas</h3>
-                    <p>All Major Cities</p>
-                    <span>Across India</span>
-                </div>
+  <div class="contact-box">
+    <i class="fas fa-clock"></i>
+    <h3>Available</h3>
+    <p>24 Hours a Day</p>
+    <span>7 Days a Week</span>
+  </div>
 
-                <div class="contact-card">
-                    <i class="fa fa-clock"></i>
-                    <h3>Available</h3>
-                    <p>24 Hours a Day</p>
-                    <span>7 Days a Week</span>
-                </div>
-
-            </div>
+</div>
 
             
             <!-- <div class="contact-form">
