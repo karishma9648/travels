@@ -25,7 +25,7 @@
         <div class="footer-links">
             <h3>Quick Links</h3>
             <a href="#">Home</a>
-            <a href="#">Our Cars</a>
+            <a href="#">Packages</a>
             <a href="#">Features</a>
             <a href="#">Reviews</a>
             <a href="#">Contact</a>
@@ -36,7 +36,7 @@
         <div class="footer-links">
             <h3>Our Services</h3>
             <a href="#">Airport Transfer</a>
-            <a href="#">City Tours</a>
+            <a href="#">Packages</a>
             <a href="#">Outstation Trips</a>
             <a href="#">Corporate Travel</a>
             <a href="#">Wedding Events</a>
@@ -66,6 +66,6 @@
 
 </footer>
 
-
+      <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    

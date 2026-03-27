@@ -62,3 +62,20 @@ document.addEventListener("click", (e) => {
         closeAll();
     }
 });
+
+function openModal() {
+  document.getElementById("carModal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("carModal").style.display = "none";
+}
+
+window.onclick = function(e) {
+  let modal = document.getElementById("carModal");
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+}
+
+

@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sachan Tour & Travels</title>
 
-   <?php include 'header-link.php'; ?>
+    <?php include 'header-link.php'; ?>
 
 </head>
 
 <body>
-<?php include 'header.php'; ?>
-   
+    <?php include 'header.php'; ?>
+
     <!-- HERO -->
     <section class="hero">
         <div class="overlay"></div>
@@ -95,19 +95,19 @@
 
     </section>
     <!-- ride section -->
-    <section class="cars-section py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="fw-bold">Choose Your Perfect Ride</h2>
-            <p class="text-muted">
-                From budget-friendly city cars to luxury SUVs, we have the perfect vehicle for every journey
-            </p>
-        </div>
+    <section class="cars-section py-5" id="packages">
+        <div class="container-fluid px-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Choose Your Perfect Ride</h2>
+                <p class="text-muted">
+                    From budget-friendly city cars to luxury SUVs, we have the perfect vehicle for every journey
+                </p>
+            </div>
 
-        <div class="row g-4">
+            <div class="row g-4">
 
-            <!-- CARD 1 -->
-            <div class="col-lg-3 col-md-6">
+                <!-- CARD 1 -->
+                <!-- <div class="col-lg-3 col-md-6">
                 <div class="card car-card h-100">
 
                     <div class="position-relative">
@@ -137,15 +137,92 @@
 
                         <div class="d-flex justify-content-between align-items-center">
                             <h6 class="price mb-0">₹11/km <small>onwards</small></h6>
-                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                            
                         </div>
+                        <div class="btn-group">
+                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a>
+                        <!BOOK NOW BUTTON -->
+                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button>
+< MODAL -->
+                <!-- <div id="carModal" class="modal">
+  <div class="modal-content">
+    <span onclick="closeModal()" class="close">&times;</span>
+    <h2>Book Your Ride</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="tel" placeholder="Phone">
+    <textarea placeholder="Travel Details"></textarea>
+
+    <button>Submit</button>
+  </div>
+</div>
+                        </div>
+
+
                     </div>
 
                 </div>
-            </div>
+            </div>  -->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card car-card h-100">
 
-            <!-- CARD 2 -->
-            <div class="col-lg-3 col-md-6">
+                        <div class="img-box position-relative">
+                            <img src="image/swift-FTV4h9a9.jpg" class="card-img-top">
+
+                            <span class="badge tag bg-success">Economy</span>
+                            <span class="rating">
+                                ⭐ 4.5
+                            </span>
+                        </div>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="fw-bold">Maruti Swift</h5>
+                            <p class="text-muted small">Perfect for city rides and short trips</p>
+
+                            <div class="d-flex justify-content-between small mb-2 text-secondary">
+                                <span><i class="fa fa-user"></i> 4</span>
+                                <span><i class="fa fa-suitcase"></i> 2</span>
+                                <span><i class="fa fa-gas-pump"></i> Petrol</span>
+                            </div>
+
+                            <div class="features mb-3">
+                                <span>AC</span>
+                                <span>GPS</span>
+                                <span>Music</span>
+                            </div>
+
+                            <!-- PRICE -->
+                            <div class="price-box mt-auto">
+                                <h6 class="price mb-0">₹11/km <small>onwards</small></h6>
+                            </div>
+
+                            <!-- BUTTONS -->
+                            <div class="btn-group-custom">
+                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div id="carModal" class="modal">
+                    <div class="modal-content">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <h2>Book Your Ride</h2>
+
+                        <input type="text" placeholder="Full Name">
+                        <input type="tel" placeholder="Phone">
+                        <textarea placeholder="Travel Details"></textarea>
+
+                        <button class="m-btn">Submit</button>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <!-- <div class="col-lg-3 col-md-6">
                 <div class="card car-card h-100">
 
                     <div class="position-relative">
@@ -173,15 +250,91 @@
 
                         <div class="d-flex justify-content-between align-items-center">
                             <h6 class="price mb-0">₹13/km <small>onwards</small></h6>
-                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                            
+                        </div>
+                              <div class="btn-group">
+                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a> -->
+                <!-- BOOK NOW BUTTON -->
+                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button> -->
+                <!-- MODAL -->
+                <!-- <div id="carModal" class="modal">
+  <div class="modal-content">
+    <span onclick="closeModal()" class="close">&times;</span>
+    <h2>Book Your Ride</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="tel" placeholder="Phone">
+    <textarea placeholder="Travel Details"></textarea>
+
+    <button>Submit</button>
+  </div>
+</div>
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
-            <!-- CARD 3 -->
-            <div class="col-lg-3 col-md-6">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card car-card h-100">
+
+                        <div class="img-box position-relative">
+                            <img src="image/ertiga-D2hWJ2M3.jpg" class="card-img-top">
+
+                            <span class="badge tag bg-success">Family</span>
+                            <span class="rating">
+                                ⭐ 4.5
+                            </span>
+                        </div>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="fw-bold">Maruti Ertiga</h5>
+                            <p class="text-muted small">Ideal for family outings and comfortable travel</p>
+
+                            <div class="d-flex justify-content-between small mb-2 text-secondary">
+                                <span><i class="fa fa-user"></i> 7</span>
+                                <span><i class="fa fa-suitcase"></i> 4</span>
+                                <span><i class="fa fa-gas-pump"></i> Petrol/CNG</span>
+                            </div>
+
+                            <div class="features mb-3">
+                                <span>AC</span>
+                                <span>GPS</span>
+                                <span>Music</span>
+                            </div>
+
+                            <!-- PRICE -->
+                            <div class="price-box mt-auto">
+                                <h6 class="price mb-0">₹13/km <small>onwards</small></h6>
+                            </div>
+
+                            <!-- BUTTONS -->
+                            <div class="btn-group-custom">
+                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div id="carModal" class="modal">
+                    <div class="modal-content">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <h2>Book Your Ride</h2>
+
+                        <input type="text" placeholder="Full Name">
+                        <input type="tel" placeholder="Phone">
+                        <textarea placeholder="Travel Details"></textarea>
+
+                        <button class="m-btn">Submit</button>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <!-- <div class="col-lg-3 col-md-6">
                 <div class="card car-card h-100">
 
                     <div class="position-relative">
@@ -209,15 +362,93 @@
 
                         <div class="d-flex justify-content-between align-items-center">
                             <h6 class="price mb-0">₹16/km <small>onwards</small></h6>
-                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                            
+                        </div>
+                         <div class="btn-group">
+                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a>
+                        BOOK NOW BUTTON -->
+                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button> -->
+                <!-- MODAL -->
+                <!-- <div id="carModal" class="modal">
+  <div class="modal-content">
+    <span onclick="closeModal()" class="close">&times;</span>
+    <h2>Book Your Ride</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="tel" placeholder="Phone">
+    <textarea placeholder="Travel Details"></textarea>
+
+    <button>Submit</button>
+  </div>
+</div>
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
-            <!-- CARD 4 -->
-            <div class="col-lg-3 col-md-6">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card car-card h-100">
+
+                        <div class="img-box position-relative">
+                            <img src="image/crysta-DgDRNYIF.jpg" class="card-img-top">
+
+                            <span class="badge tag bg-success">Premium</span>
+                            <span class="rating">
+                                ⭐ 4.5
+                            </span>
+                        </div>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="fw-bold">Toyota Innova Crysta</h5>
+                            <p class="text-muted small">Ideal for family trips and long journeys
+
+                            </p>
+
+                            <div class="d-flex justify-content-between small mb-2 text-secondary">
+                                <span><i class="fa fa-user"></i> 7</span>
+                                <span><i class="fa fa-suitcase"></i> 5</span>
+                                <span><i class="fa fa-gas-pump"></i> Diesel</span>
+                            </div>
+
+                            <div class="features mb-3">
+                                <span>AC</span>
+                                <span>GPS</span>
+                                <span>Music</span>
+                            </div>
+
+                            <!-- PRICE -->
+                            <div class="price-box mt-auto">
+                                <h6 class="price mb-0">₹16/km <small>onwards</small></h6>
+                            </div>
+
+                            <!-- BUTTONS -->
+                            <div class="btn-group-custom">
+                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div id="carModal" class="modal">
+                    <div class="modal-content">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <h2>Book Your Ride</h2>
+
+                        <input type="text" placeholder="Full Name">
+                        <input type="tel" placeholder="Phone">
+                        <textarea placeholder="Travel Details"></textarea>
+
+                        <button class="m-btn">Submit</button>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <!-- <div class="col-lg-3 col-md-6">
                 <div class="card car-card h-100">
 
                     <div class="position-relative">
@@ -245,18 +476,93 @@
 
                         <div class="d-flex justify-content-between align-items-center">
                             <h6 class="price mb-0">₹17/km <small>onwards</small></h6>
-                            <a href="#" class="btn btn-success btn-sm">Book Now</a>
+                            
+                        </div>
+                         <div class="btn-group">
+                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a> -->
+                <!-- BOOK NOW BUTTON -->
+                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button> -->
+                <!-- MODAL -->
+                <!-- <div id="carModal" class="modal">
+  <div class="modal-content">
+    <span onclick="closeModal()" class="close">&times;</span>
+    <h2>Book Your Ride</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="tel" placeholder="Phone">
+    <textarea placeholder="Travel Details"></textarea>
+
+    <button>Submit</button>
+  </div>
+</div>
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </div> -->
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card car-card h-100">
 
+                        <div class="img-box position-relative">
+                            <img src="image/thar-DDEH5HwU.jpg" class="card-img-top">
+
+                            <span class="badge tag bg-success">Adventure</span>
+                            <span class="rating">
+                                ⭐ 4.5
+                            </span>
+                        </div>
+
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="fw-bold">Mahindra Thar</h5>
+                            <p class="text-muted small">Perfect for adventure trips and rough terrain</p>
+
+                            <div class="d-flex justify-content-between small mb-2 text-secondary">
+                                <span><i class="fa fa-user"></i> 4</span>
+                                <span><i class="fa fa-suitcase"></i> 2</span>
+                                <span><i class="fa fa-gas-pump"></i> Diesel</span>
+                            </div>
+
+                            <div class="features mb-3">
+                                <span>AC</span>
+                                <span>GPS</span>
+                                <span>Music</span>
+                            </div>
+
+                            <!-- PRICE -->
+                            <div class="price-box mt-auto">
+                                <h6 class="price mb-0">₹20/km <small>onwards</small></h6>
+                            </div>
+
+                            <!-- BUTTONS -->
+                            <div class="btn-group-custom">
+                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div id="carModal" class="modal">
+                    <div class="modal-content">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <h2>Book Your Ride</h2>
+
+                        <input type="text" placeholder="Full Name">
+                        <input type="tel" placeholder="Phone">
+                        <textarea placeholder="Travel Details"></textarea>
+
+                        <button class="m-btn">Submit</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
     <!-- services  -->
-    <section class="why-section">
+    <section class="why-section" id="services">
 
         <div class="container">
 
@@ -329,293 +635,293 @@
     </section>
 
     <!-- reviews -->
-     <section class="testimonial-section">
+    <section class="testimonial-section">
 
-    <div class="container">
+        <div class="container">
 
-        <h2>What Our Customers Say</h2>
-        <p class="subtitle">
-            Don't just take our word for it. Read what our satisfied customers have to say about their travel experience with us
-        </p>
+            <h2>What Our Customers Say</h2>
+            <p class="subtitle">
+                Don't just take our word for it. Read what our satisfied customers have to say about their travel experience with us
+            </p>
 
-        <div class="testi-grid">
+            <div class="testi-grid">
 
-            <!-- CARD -->
-            <div class="testi-card">
+                <!-- CARD -->
+                <div class="testi-card">
 
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                </div>
-
-                <div class="top">
-                    <div>
-                        <h4>Rajesh Kumar</h4>
-                        <span class="location">Bikaner</span>
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
                     </div>
-                    <span class="time">2 weeks ago</span>
+
+                    <div class="top">
+                        <div>
+                            <h4>Rajesh Kumar</h4>
+                            <span class="location">Bikaner</span>
+                        </div>
+                        <span class="time">2 weeks ago</span>
+                    </div>
+
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>5</span>
+                    </div>
+
+                    <p>
+                        "Excellent service from Bikaner to Jaipur and Udaipur! Multi-city travel was seamless with professional drivers."
+                    </p>
+
                 </div>
 
-               
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>5</span>
+
+                <div class="testi-card">
+
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+
+                    <div class="top">
+                        <div>
+                            <h4>Priya Sharma</h4>
+                            <span class="location">Bikaner</span>
+                        </div>
+                        <span class="time">1 month ago
+                        </span>
+                    </div>
+
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>5</span>
+                    </div>
+
+                    <p>
+                        "Amazing experience traveling from Bikaner to multiple Rajasthan cities. Comfortable car, reliable service, and great pricing for our 5-day tour!"
+                    </p>
+
                 </div>
 
-                <p>
-                    "Excellent service from Bikaner to Jaipur and Udaipur! Multi-city travel was seamless with professional drivers."
-                </p>
+                <div class="testi-card">
+
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+
+                    <div class="top">
+                        <div>
+                            <h4>Anil Singh</h4>
+                            <span class="location">Bikaner</span>
+                        </div>
+                        <span class="time">3 weeks ago</span>
+                    </div>
+
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.5</span>
+                    </div>
+
+                    <p>
+                        "Very reliable service for our Bikaner to Jodhpur, Jaisalmer, and back trip. Innova was perfect for our family's multi-city journey."
+
+
+                    </p>
+
+                </div>
+
+                <div class="testi-card">
+
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+
+                    <div class="top">
+                        <div>
+                            <h4>Sunita Agarwal</h4>
+                            <span class="location">Bikaner</span>
+                        </div>
+                        <span class="time">1 weeks ago</span>
+                    </div>
+
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>5</span>
+                    </div>
+
+                    <p>
+                        "Best taxi service for multi-destination trips! Traveled from Bikaner to Delhi via Mandawa and Shekhawati. Clean vehicles and courteous drivers!"
+                    </p>
+
+                </div>
+
+                <div class="testi-card">
+
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+
+                    <div class="top">
+                        <div>
+                            <h4>Vikram Mehta </h4>
+                            <span class="location">Bikaner</span>
+                        </div>
+                        <span class="time">2 months ago</span>
+                    </div>
+
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>4.8</span>
+                    </div>
+
+                    <p>
+                        "Booked for Bikaner sightseeing and trips to nearby cities. Driver was knowledgeable about all locations and made our multi-city tour memorable."
+                    </p>
+
+                </div>
+                <div class="testi-card">
+
+                    <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+
+                    <div class="top">
+                        <div>
+                            <h4>Kavita Reddy</h4>
+                            <span class="location">Bikaner</span>
+                        </div>
+                        <span class="time">1 months ago</span>
+                    </div>
+
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>5</span>
+                    </div>
+
+                    <p>
+                        "Emergency multi-city business trip from Bikaner was handled professionally. Visited 4 cities in 2 days without any hassle. Thank you Rathore Tour & Travels!"
+                    </p>
+
+                </div>
+
+
 
             </div>
 
 
-            <div class="testi-card">
+            <div class="stats">
 
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                </div>
 
-                <div class="top">
-                    <div>
-                        <h4>Priya Sharma</h4>
-                        <span class="location">Bikaner</span>
+                <div class="stat-box">
+                    <h3>4.8</h3>
+                    <p>Average Rating</p>
+                    <div class="stars small">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>4.8</span>
                     </div>
-                    <span class="time">1 month ago
-</span>
                 </div>
 
-               
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>5</span>
+
+                <div class="stat-box">
+                    <h3>500+</h3>
+                    <p><i class="fa-solid fa-users"></i> Happy Customers</p>
                 </div>
 
-                <p>
-                    "Amazing experience traveling from Bikaner to multiple Rajasthan cities. Comfortable car, reliable service, and great pricing for our 5-day tour!"
-                </p>
+
+                <div class="stat-box">
+                    <h3>50+</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Cities Covered</p>
+                </div>
+
+
+                <div class="stat-box">
+                    <h3>24/7</h3>
+                    <p><i class="fa-solid fa-headset"></i> Support Available</p>
+                </div>
 
             </div>
-
-            <div class="testi-card">
-
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                </div>
-
-                <div class="top">
-                    <div>
-                        <h4>Anil Singh</h4>
-                        <span class="location">Bikaner</span>
-                    </div>
-                    <span class="time">3 weeks ago</span>
-                </div>
-
-               
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>4.5</span>
-                </div>
-
-                <p>
-                    "Very reliable service for our Bikaner to Jodhpur, Jaisalmer, and back trip. Innova was perfect for our family's multi-city journey."
-
-
-                </p>
-
-            </div>
-
-            <div class="testi-card">
-
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                </div>
-
-                <div class="top">
-                    <div>
-                        <h4>Sunita Agarwal</h4>
-                        <span class="location">Bikaner</span>
-                    </div>
-                    <span class="time">1 weeks ago</span>
-                </div>
-
-               
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>5</span>
-                </div>
-
-                <p>
-                    "Best taxi service for multi-destination trips! Traveled from Bikaner to Delhi via Mandawa and Shekhawati. Clean vehicles and courteous drivers!"
-                </p>
-
-            </div>
-
-            <div class="testi-card">
-
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                </div>
-
-                <div class="top">
-                    <div>
-                        <h4>Vikram Mehta </h4>
-                        <span class="location">Bikaner</span>
-                    </div>
-                    <span class="time">2 months ago</span>
-                </div>
-
-               
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>4.8</span>
-                </div>
-
-                <p>
-                    "Booked for Bikaner sightseeing and trips to nearby cities. Driver was knowledgeable about all locations and made our multi-city tour memorable."
-                </p>
-
-            </div>
-               <div class="testi-card">
-
-                <div class="quote">
-                    <i class="fa-solid fa-quote-left"></i>
-                </div>
-
-                <div class="top">
-                    <div>
-                        <h4>Kavita Reddy</h4>
-                        <span class="location">Bikaner</span>
-                    </div>
-                    <span class="time">1 months ago</span>
-                </div>
-
-               
-                <div class="stars">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>5</span>
-                </div>
-
-                <p>
-                   "Emergency multi-city business trip from Bikaner was handled professionally. Visited 4 cities in 2 days without any hassle. Thank you Rathore Tour & Travels!"
-                </p>
-
-            </div>
-
-            
 
         </div>
 
-        
-        <div class="stats">
+    </section>
 
-           
-            <div class="stat-box">
-                <h3>4.8</h3>
-                <p>Average Rating</p>
-                <div class="stars small">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                    <span>4.8</span>
+    <!-- contact -->
+    <section class="contact-section" id="contact">
+
+        <div class="container">
+
+            <h2>Get In Touch</h2>
+            <p class="subtitle">
+                Ready to book your next journey? Contact us today for personalized service
+                and competitive rates
+            </p>
+
+            <div class="contact-wrapper">
+
+                <div class="contact-left">
+
+                    <div class="contact-box">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>+91 99293 14857<br>+91 80037 36751</p>
+                        <span>24/7 Support</span>
+                    </div>
+
+                    <div class="contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>booking.rathoretourandtravels@gmail.com</p>
+                        <span>Quick Response</span>
+                    </div>
+
+                    <div class="contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Service Areas</h3>
+                        <p>All Major Cities</p>
+                        <span>Across India</span>
+                    </div>
+
+                    <div class="contact-box">
+                        <i class="fas fa-clock"></i>
+                        <h3>Available</h3>
+                        <p>24 Hours a Day</p>
+                        <span>7 Days a Week</span>
+                    </div>
+
                 </div>
-            </div>
 
-            
-            <div class="stat-box">
-                <h3>500+</h3>
-                <p><i class="fa-solid fa-users"></i> Happy Customers</p>
-            </div>
 
-           
-            <div class="stat-box">
-                <h3>50+</h3>
-                <p><i class="fa-solid fa-location-dot"></i> Cities Covered</p>
-            </div>
-
-            
-            <div class="stat-box">
-                <h3>24/7</h3>
-                <p><i class="fa-solid fa-headset"></i> Support Available</p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- contact -->
- <section class="contact-section">
-
-    <div class="container">
-
-        <h2>Get In Touch</h2>
-        <p class="subtitle">
-            Ready to book your next journey? Contact us today for personalized service
-            and competitive rates
-        </p>
-
-        <div class="contact-wrapper">
-
-          <div class="contact-left">
-  
-  <div class="contact-box">
-    <i class="fas fa-phone"></i>
-    <h3>Call Us</h3>
-    <p>+91 99293 14857<br>+91 80037 36751</p>
-    <span>24/7 Support</span>
-  </div>
-
-  <div class="contact-box">
-    <i class="fas fa-envelope"></i>
-    <h3>Email Us</h3>
-    <p>booking.rathoretourandtravels@gmail.com</p>
-    <span>Quick Response</span>
-  </div>
-
-  <div class="contact-box">
-    <i class="fas fa-map-marker-alt"></i>
-    <h3>Service Areas</h3>
-    <p>All Major Cities</p>
-    <span>Across India</span>
-  </div>
-
-  <div class="contact-box">
-    <i class="fas fa-clock"></i>
-    <h3>Available</h3>
-    <p>24 Hours a Day</p>
-    <span>7 Days a Week</span>
-  </div>
-
-</div>
-
-            
-            <!-- <div class="contact-form">
+                <!-- <div class="contact-form">
 
                 <h3>Send us a Message</h3>
 
@@ -631,40 +937,40 @@
                 <button>Get Quote Now</button>
 
             </div> -->
-            <div class="contact-form-box">
-  <h3 class="cf-title">Send us a Message</h3>
+                <div class="contact-form-box">
+                    <h3 class="cf-title">Send us a Message</h3>
 
-  <div class="cf-row">
-    <div class="cf-field">
-      <label class="cf-label">Full Name</label>
-      <input type="text" class="cf-input" placeholder="Enter your name">
-    </div>
+                    <div class="cf-row">
+                        <div class="cf-field">
+                            <label class="cf-label">Full Name</label>
+                            <input type="text" class="cf-input" placeholder="Enter your name">
+                        </div>
 
-    <div class="cf-field">
-      <label class="cf-label">Phone Number</label>
-      <input type="text" class="cf-input" placeholder="Enter your phone">
-    </div>
-  </div>
+                        <div class="cf-field">
+                            <label class="cf-label">Phone Number</label>
+                            <input type="text" class="cf-input" placeholder="Enter your phone">
+                        </div>
+                    </div>
 
-  <div class="cf-field">
-    <label class="cf-label">Email Address</label>
-    <input type="email" class="cf-input" placeholder="Enter your email">
-  </div>
+                    <div class="cf-field">
+                        <label class="cf-label">Email Address</label>
+                        <input type="email" class="cf-input" placeholder="Enter your email">
+                    </div>
 
-  <div class="cf-field">
-    <label class="cf-label">Travel Details</label>
-    <textarea class="cf-textarea" placeholder="Tell us about your travel requirements..."></textarea>
-  </div>
+                    <div class="cf-field">
+                        <label class="cf-label">Travel Details</label>
+                        <textarea class="cf-textarea" placeholder="Tell us about your travel requirements..."></textarea>
+                    </div>
 
-  <button class="cf-btn">Get Quote Now</button>
-</div>
+                    <button class="cf-btn">Get Quote Now</button>
+                </div>
+
+            </div>
 
         </div>
 
-    </div>
-
-</section>
-<?php include 'footer.php'; ?>
+    </section>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
