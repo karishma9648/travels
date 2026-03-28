@@ -106,63 +106,7 @@
 
             <div class="row g-4">
 
-                <!-- CARD 1 -->
-                <!-- <div class="col-lg-3 col-md-6">
-                <div class="card car-card h-100">
-
-                    <div class="position-relative">
-                        <img src="image/swift-FTV4h9a9.jpg" class="card-img-top">
-
-                        <span class="badge tag bg-success">Economy</span>
-                        <span class="rating">
-                            ⭐ 4.5
-                        </span>
-                    </div>
-
-                    <div class="card-body">
-                        <h5 class="fw-bold">Maruti Swift</h5>
-                        <p class="text-muted small">Perfect for city rides and short trips</p>
-
-                        <div class="d-flex justify-content-between small mb-2 text-secondary">
-                            <span><i class="fa fa-user"></i> 4</span>
-                            <span><i class="fa fa-suitcase"></i> 2</span>
-                            <span><i class="fa fa-gas-pump"></i> Petrol</span>
-                        </div>
-
-                        <div class="features mb-3">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Music</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h6 class="price mb-0">₹11/km <small>onwards</small></h6>
-                            
-                        </div>
-                        <div class="btn-group">
-                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a>
-                        <!BOOK NOW BUTTON -->
-                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button>
-< MODAL -->
-                <!-- <div id="carModal" class="modal">
-  <div class="modal-content">
-    <span onclick="closeModal()" class="close">&times;</span>
-    <h2>Book Your Ride</h2>
-
-    <input type="text" placeholder="Full Name">
-    <input type="tel" placeholder="Phone">
-    <textarea placeholder="Travel Details"></textarea>
-
-    <button>Submit</button>
-  </div>
-</div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>  -->
+         
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div class="card car-card h-100">
 
@@ -198,82 +142,13 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
-
-
-                <div id="carModal" class="modal">
-                    <div class="modal-content">
-                        <span onclick="closeModal()" class="close">&times;</span>
-                        <h2>Book Your Ride</h2>
-
-                        <input type="text" placeholder="Full Name">
-                        <input type="tel" placeholder="Phone">
-                        <textarea placeholder="Travel Details"></textarea>
-
-                        <button class="m-btn">Submit</button>
-                    </div>
-                </div>
-
-                <!-- CARD 2 -->
-                <!-- <div class="col-lg-3 col-md-6">
-                <div class="card car-card h-100">
-
-                    <div class="position-relative">
-                        <img src="image/ertiga-D2hWJ2M3.jpg" class="card-img-top">
-
-                        <span class="badge tag bg-success">Family</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h5 class="fw-bold">Maruti Ertiga</h5>
-                        <p class="text-muted small">Ideal for family outings</p>
-
-                        <div class="d-flex justify-content-between small mb-2 text-secondary">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 4</span>
-                            <span><i class="fa fa-gas-pump"></i> Petrol/CNG</span>
-                        </div>
-
-                        <div class="features mb-3">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>Spacious</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h6 class="price mb-0">₹13/km <small>onwards</small></h6>
-                            
-                        </div>
-                              <div class="btn-group">
-                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a> -->
-                <!-- BOOK NOW BUTTON -->
-                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button> -->
-                <!-- MODAL -->
-                <!-- <div id="carModal" class="modal">
-  <div class="modal-content">
-    <span onclick="closeModal()" class="close">&times;</span>
-    <h2>Book Your Ride</h2>
-
-    <input type="text" placeholder="Full Name">
-    <input type="tel" placeholder="Phone">
-    <textarea placeholder="Travel Details"></textarea>
-
-    <button>Submit</button>
-  </div>
-</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
 
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div class="card car-card h-100">
@@ -310,82 +185,13 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
-
-
-                <div id="carModal" class="modal">
-                    <div class="modal-content">
-                        <span onclick="closeModal()" class="close">&times;</span>
-                        <h2>Book Your Ride</h2>
-
-                        <input type="text" placeholder="Full Name">
-                        <input type="tel" placeholder="Phone">
-                        <textarea placeholder="Travel Details"></textarea>
-
-                        <button class="m-btn">Submit</button>
-                    </div>
-                </div>
-
-                <!-- CARD 3 -->
-                <!-- <div class="col-lg-3 col-md-6">
-                <div class="card car-card h-100">
-
-                    <div class="position-relative">
-                        <img src="image/crysta-DgDRNYIF.jpg" class="card-img-top">
-
-                        <span class="badge tag bg-success">Premium</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h5 class="fw-bold">Toyota Innova Crysta</h5>
-                        <p class="text-muted small">Ideal for long journeys</p>
-
-                        <div class="d-flex justify-content-between small mb-2 text-secondary">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 5</span>
-                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
-                        </div>
-
-                        <div class="features mb-3">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>WiFi</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h6 class="price mb-0">₹16/km <small>onwards</small></h6>
-                            
-                        </div>
-                         <div class="btn-group">
-                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a>
-                        BOOK NOW BUTTON -->
-                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button> -->
-                <!-- MODAL -->
-                <!-- <div id="carModal" class="modal">
-  <div class="modal-content">
-    <span onclick="closeModal()" class="close">&times;</span>
-    <h2>Book Your Ride</h2>
-
-    <input type="text" placeholder="Full Name">
-    <input type="tel" placeholder="Phone">
-    <textarea placeholder="Travel Details"></textarea>
-
-    <button>Submit</button>
-  </div>
-</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
 
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div class="card car-card h-100">
@@ -424,7 +230,7 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
@@ -432,74 +238,6 @@
                     </div>
                 </div>
 
-
-
-                <div id="carModal" class="modal">
-                    <div class="modal-content">
-                        <span onclick="closeModal()" class="close">&times;</span>
-                        <h2>Book Your Ride</h2>
-
-                        <input type="text" placeholder="Full Name">
-                        <input type="tel" placeholder="Phone">
-                        <textarea placeholder="Travel Details"></textarea>
-
-                        <button class="m-btn">Submit</button>
-                    </div>
-                </div>
-
-                <!-- CARD 4 -->
-                <!-- <div class="col-lg-3 col-md-6">
-                <div class="card car-card h-100">
-
-                    <div class="position-relative">
-                        <img src="image/thar-DDEH5HwU.jpg" class="card-img-top">
-
-                        <span class="badge tag bg-success">SUV</span>
-                        <span class="rating">⭐ 4.5</span>
-                    </div>
-
-                    <div class="card-body">
-                        <h5 class="fw-bold">Mahindra Scorpio</h5>
-                        <p class="text-muted small">Rugged SUV for all terrains</p>
-
-                        <div class="d-flex justify-content-between small mb-2 text-secondary">
-                            <span><i class="fa fa-user"></i> 7</span>
-                            <span><i class="fa fa-suitcase"></i> 4</span>
-                            <span><i class="fa fa-gas-pump"></i> Diesel</span>
-                        </div>
-
-                        <div class="features mb-3">
-                            <span>AC</span>
-                            <span>GPS</span>
-                            <span>4WD</span>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h6 class="price mb-0">₹17/km <small>onwards</small></h6>
-                            
-                        </div>
-                         <div class="btn-group">
-                        <a href="#" class="btn btn-success btn-sm" style="gap: 10px;">Explore More</a> -->
-                <!-- BOOK NOW BUTTON -->
-                <!-- <button class="btn btn-success btn-sm" onclick="openModal()" style="gap: 20px;">Book Now</button> -->
-                <!-- MODAL -->
-                <!-- <div id="carModal" class="modal">
-  <div class="modal-content">
-    <span onclick="closeModal()" class="close">&times;</span>
-    <h2>Book Your Ride</h2>
-
-    <input type="text" placeholder="Full Name">
-    <input type="tel" placeholder="Phone">
-    <textarea placeholder="Travel Details"></textarea>
-
-    <button>Submit</button>
-  </div>
-</div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                     <div class="card car-card h-100">
 
@@ -535,17 +273,17 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="#" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
-
-
-                <div id="carModal" class="modal">
+            </div>
+        </div>
+    </section>
+                    <div id="carModal" class="modal">
                     <div class="modal-content">
                         <span onclick="closeModal()" class="close">&times;</span>
                         <h2>Book Your Ride</h2>
@@ -557,10 +295,6 @@
                         <button class="m-btn">Submit</button>
                     </div>
                 </div>
-
-            </div>
-        </div>
-    </section>
     <!-- services  -->
     <section class="why-section" id="services">
 
