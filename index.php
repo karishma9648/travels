@@ -142,7 +142,7 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="cardetails.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
@@ -185,7 +185,7 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="cardetails.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="cardetails.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
@@ -273,7 +273,7 @@
 
                             <!-- BUTTONS -->
                             <div class="btn-group-custom">
-                                <a href="details.php" class="btn explore-btn btn-sm">Explore More</a>
+                                <a href="cardetails.php" class="btn explore-btn btn-sm">Explore More</a>
                                 <button class="btn book-btn btn-sm" onclick="openModal()">Book Now</button>
                             </div>
                         </div>
