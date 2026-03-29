@@ -150,4 +150,261 @@
 }
 
 
+.cpt-section {
+  background: #f5f5f5;
+}
+
+.cpt-head {
+  padding: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cpt-head.blue {
+  background: #2f80ed;
+}
+
+.cpt-head.dark {
+  background: #444;
+}
+
+.cpt-head.black {
+  background: #000;
+}
+
+.cpt-row {
+  background: #fff;
+  margin-top: 10px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+
+.cpt-car img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.cpt-car h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.cpt-rating span {
+  color: #00c853;
+  font-size: 14px;
+}
+
+
+.cpt-price {
+  text-align: center;
+}
+
+.cpt-price h6 {
+  color: #2f80ed;
+  font-weight: 600;
+}
+
+.cpt-price h6 span {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.cpt-price p {
+  font-size: 12px;
+  color: #777;
+}
+
+
+@media (max-width: 768px) {
+
+  .cpt-header {
+    display: none;
+  }
+
+  .cpt-row {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .cpt-car {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .cpt-car img {
+    margin-bottom: 10px;
+  }
+
+  .cpt-price {
+    margin-bottom: 10px;
+  }
+}
+
+
+/* .cpt-details-table table {
+  background: #fff;
+}
+
+.cpt-details-table th {
+  background: #f1f1f1;
+  font-size: 13px;
+}
+
+.cpt-details-table td {
+  font-size: 13px;
+}
+
+
+.cpt-table-head td {
+  background: #cfc6d8;
+  font-weight: 600;
+  text-align: left;
+}
+
+.cpt-table-head.orange td {
+  background: #f2c9a5;
+}
+
+
+@media (max-width: 768px) {
+  .cpt-details-table {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 700px;
+  }
+} */
+
+/* Section */
+.cdh-section {
+  background: #f5f5f5;
+}
+
+/* Image */
+.cdh-img img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+/* Title */
+.cdh-title h3 {
+  font-weight: 700;
+}
+
+.cdh-title p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Price */
+.cdh-price {
+  color: #ff4d00;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.cdh-price span {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Heading */
+.cdh-heading {
+  font-weight: 700;
+}
+
+/* Sidebar */
+.cdh-sidebar {
+  position: sticky;
+  top: 100px;
+}
+
+/* Card */
+.cdh-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* Labels */
+.cdh-card label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Inputs */
+.cdh-card input,
+.cdh-card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Date Row */
+.cdh-date {
+  display: flex;
+  gap: 10px;
+}
+
+/* Button */
+.cdh-btn {
+  width: 100%;
+  background: #ff4d00;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+}
+
+/* Note */
+.cdh-note {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* IMPORTANT FIX */
+.row {
+  align-items: flex-start;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .cdh-sidebar {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .cdh-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cdh-price {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
 
