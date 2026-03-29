@@ -18,10 +18,10 @@
         <div class="cs-hero-content">
           
           <p class="cs-breadcrumb">
-            HOME <span>></span> Packages
+            HOME <span>></span> Features
           </p>
 
-          <h1 class="cs-title">Our Packages</h1>
+          <h1 class="cs-title">Our Features</h1>
 
         </div>
       </div>
