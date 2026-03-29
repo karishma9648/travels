@@ -1,4 +1,4 @@
-/* HERO SECTION */
+
 .cs-hero {
   position: relative;
   width: 100%;
@@ -7,7 +7,7 @@
   display: flex;
 }
 
-/* Overlay */
+
 .cs-hero::before {
   content: "";
   position: absolute;
@@ -15,14 +15,14 @@
   background: rgba(0, 0, 0, 0.45);
 }
 
-/* Content */
+
 .cs-hero-content {
   position: relative;
   color: #fff;
   z-index: 2;
 }
 
-/* Breadcrumb */
+
 .cs-breadcrumb {
   font-size: 14px;
   letter-spacing: 1px;
@@ -34,13 +34,12 @@
   margin: 0 5px;
 }
 
-/* Title */
 .cs-title {
   font-size: 48px;
   font-weight: 600;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .cs-hero {
     height: 350px;
@@ -56,19 +55,18 @@
   }
 }
 
-/* Section */
+
 .csd-car-details {
   background: #f5f5f5;
 }
 
-/* Image */
+
 .csd-car-img img {
   width: 100%;
   max-width: 900px;
   border-radius: 12px;
 }
 
-/* Title */
 .csd-subtitle {
   letter-spacing: 3px;
   font-size: 12px;
@@ -81,18 +79,18 @@
   font-weight: 500;
 }
 
-/* Features */
+
 .csd-features {
   justify-content: center;
   gap: 20px;
 }
 
-/* Box */
+
 .csd-feature-box {
   padding: 20px 10px;
 }
 
-/* Icon circle */
+
 .csd-icon {
   width: 70px;
   height: 70px;
@@ -107,7 +105,7 @@
   margin-bottom: 10px;
 }
 
-/* Text */
+
 .csd-feature-box p {
   margin: 0;
   font-size: 14px;
@@ -118,7 +116,7 @@
   font-weight: 600;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .csd-car-title h2 {
     font-size: 24px;
@@ -131,7 +129,7 @@
   }
 }
 
-/* Tabs Nav */
+
 .csf-tabs-nav .nav-link {
   border: none;
   color: #999;
@@ -144,13 +142,13 @@
   color: #0d6efd;
 }
 
-/* Underline */
+
 .csf-tabs-nav {
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
 }
 
-/* Feature List */
+
 .csf-list {
   list-style: none;
   padding: 0;
@@ -164,7 +162,7 @@
   padding-left: 25px;
 }
 
-/* Check icon */
+
 .csf-list li.yes::before {
   content: "✔";
   color: #28a745;
@@ -172,7 +170,7 @@
   left: 0;
 }
 
-/* Cross icon */
+
 .csf-list li.no::before {
   content: "✖";
   color: red;
@@ -180,7 +178,7 @@
   left: 0;
 }
 
-/* Content (Description/Review) */
+
 .csf-content {
   max-width: 700px;
   margin: auto;
@@ -189,7 +187,7 @@
   font-size: 16px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .csf-tabs-nav .nav-link {
     margin: 0 8px;
@@ -201,12 +199,12 @@
   }
 }
 
-/* Section */
+
 .cci-contact-section {
   background: #f5f5f5;
 }
 
-/* Label */
+
 .cci-label {
   display: inline-block;
   background:#146c43;
@@ -218,14 +216,13 @@
   margin-bottom: 10px;
 }
 
-/* Heading */
+
 .cci-heading {
   font-size: 40px;
   font-weight: 700;
   color: #111;
 }
 
-/* Card */
 .cci-card {
   position: relative;
   background: #fff;
@@ -235,12 +232,12 @@
   transition: 0.3s;
 }
 
-/* Hover */
+
 .cci-card:hover {
   transform: translateY(-5px);
 }
 
-/* Floating Icon */
+
 .cci-icon {
   position: absolute;
   top: -30px;
@@ -260,7 +257,7 @@
   font-size: 28px;
 }
 
-/* Text */
+
 .cci-card h4 {
   margin-top: 20px;
   font-weight: 600;
@@ -272,7 +269,7 @@
   font-size: 15px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .cci-heading {
     font-size: 28px;
@@ -347,7 +344,7 @@
   border:0;
 }
 
-/* responsive */
+
 @media(max-width:768px){
   .map-box{
     height:250px;
